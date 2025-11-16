@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import { db } from "@/lib/db";
 import { Product } from "@/lib/types";
-import {_} from "lodash";
 
 export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
