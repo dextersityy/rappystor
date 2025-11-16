@@ -11,4 +11,5 @@ export interface Product {
   price: number;
   description: string;
   category: "streaming" | "music" | "editing" | "AI" | "tools";
+  imageUrl: string;
 }

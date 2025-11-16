@@ -58,7 +58,7 @@ export default function Home() {
                   id={product.id}
                   name={product.name}
                   price={`$${product.price.toFixed(2)} / 12 Months`}
-                  category={product.category}
+                  imageUrl={product.imageUrl}
                 />
               ))}
             </div>

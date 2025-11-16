@@ -42,13 +42,13 @@ const Header = () => {
             Home
           </Link>
           <Link
-            href="#"
+            href="/products"
             className="text-white/80 hover:text-white transition-colors text-sm font-medium leading-normal"
           >
             Products
           </Link>
           <Link
-            href="#"
+            href="/faq"
             className="text-white/80 hover:text-white transition-colors text-sm font-medium leading-normal"
           >
             FAQ
@@ -73,14 +73,17 @@ const Header = () => {
               <span className="truncate">Login</span>
             </Link>
           )}
-          <button className="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#282d39] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5 hover:bg-[#3a4152] transition-colors">
+          <Link
+            href="/cart"
+            className="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#282d39] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5 hover:bg-[#3a4152] transition-colors"
+          >
             <span
               className="material-symbols-outlined text-white"
               style={{ fontSize: 20 }}
             >
               shopping_cart
             </span>
-          </button>
+          </Link>
         </div>
       </div>
     </header>

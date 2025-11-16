@@ -26,7 +26,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-display">
+      <body className="font-display bg-background-light dark:bg-background-dark">
         <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
